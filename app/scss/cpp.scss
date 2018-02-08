@@ -1,0 +1,38 @@
+
+.cpp{
+	background-color: #f1f1f1;
+	
+	div.container{
+		display: flex;
+		background-color: #f1f1f1;
+		flex-direction: column;
+	}
+	
+	.pitanje{
+		padding: 20px;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 40%;
+	}
+}
+
+.cpp-naslov{
+	color: grey;
+}
+
+h2.cpp-naslov{
+	padding-left: 50px;
+}
+
+h3.cpp-naslov{
+	display: inline;
+}
+
+#pitanja-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*.cpp div.container{
+	background-color: #fff;
+}*/
