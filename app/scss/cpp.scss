@@ -9,15 +9,18 @@
 	}
 	
 	.pitanje{
-		padding: 20px;
+		padding: 10px 20px 5px 20px;
 		flex-grow: 1;
 		flex-shrink: 1;
 		flex-basis: 40%;
+		color: #333;
 	}
 }
 
 .cpp-naslov{
-	color: grey;
+	color: #333;
+	font-style: italic;
+	letter-spacing: 0px;
 }
 
 h2.cpp-naslov{
