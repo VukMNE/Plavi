@@ -2,6 +2,8 @@
 @import 'footer';
 @import 'cpp';
 
+$plava:#3F48CC;
+
 body{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     box-sizing: border-box;
@@ -14,39 +16,76 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 30px 0;
-    background-color: red;    
     display: flex;
 }
 
 
 
 .pocetna{
-    background:linear-gradient(-55deg, rgba(63, 72, 204, 0.404) 0%,rgba(63, 72, 204, 0.404) 50%,rgba(255, 255, 255, 0.4) 50%,rgba(255, 255, 255, 0.4) 100%), url('./../img/pocetna.jpeg');
+    background:linear-gradient(-65deg, rgba(63, 72, 204, 0.404) 0%,rgba(63, 72, 204, 0.404) 50%,rgba(255, 255, 255, 0.4) 50%,rgba(255, 255, 255, 0.4) 100%), url('./../img/pocetna.jpeg');
     // url za sliku mora biti u ovom formatu ./../img/slika...
     min-height: 600px;
     background-size: cover;
     background-position: center;
 
+    height: 100vh;
 
     .container{
         display: flex;
         justify-content: center;
-
+        flex-direction: column;
         ul{
             display: flex;
             list-style: none;
-            justify-content: space-around;
+            justify-content: center;
             align-content: center;
+            align-items: center;
             padding: 0;
-
+            margin: 0;
             li{
-                padding: 0 20px;
-
-
+                letter-spacing: 0.5px;
                 a{
+                    
                     text-decoration: none;
-                    color: inherit;
+                    color: $plava;
+                    font-size: 1.2rem;
+                    letter-spacing: 0px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    margin: 0 20px;
                 }
+            }
+
+            img{
+                width: 100px;
+            }
+        }
+        .sadrzaj{
+            color: #fff;
+            h1{
+                padding-top: 100px;
+                color: #fff;
+                font-size: 2rem;
+                margin-bottom: 0;
+                padding-left: 40px;
+            }
+            h3{
+                width: 80%;
+                padding-left: 40px;
+                
+            }
+            display: flex;
+            div{
+                flex: 1;
+            }
+            .prvi{
+                display: flex;
+                justify-content: center;
+            }
+            .drugi{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
             }
         }
     }
