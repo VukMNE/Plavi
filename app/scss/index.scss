@@ -1,6 +1,7 @@
 @import 'app';
 @import 'footer';
 @import 'cpp';
+@import 'mogucnosti';
 
 $plava:#3F48CC;
 
@@ -89,4 +90,23 @@ body{
             }
         }
     }
+}
+
+.lijevi-tekst{
+	text-align: left;
+}
+
+.slicice{
+	font-size: 1.8em;
+	width: 50px
+}
+
+.poster{
+	font-size: 3.6em;
+	width: 200px;
+	text-align: center;
+}
+
+.bijeli-tekst{
+	color: #fff;
 }

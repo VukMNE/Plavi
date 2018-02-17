@@ -1,0 +1,29 @@
+
+.mogucnosti{
+	background-color: #3F48CC;
+	
+	div.container{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.mog{
+		padding: 20px;
+		/*display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-item: center;*/
+		text-align: center;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 40%;
+	}
+}
+
+#mogucnost-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
