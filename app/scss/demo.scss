@@ -1,9 +1,49 @@
 .demo{
-	.blue{
-		background-color: #3F48CC;
+	.container{
+		max-width: unset;
+		padding: 0;
+		display: flex;
+
+
+		.blue{
+			background-color: #3F48CC;
+			// padding-left: 150px;
+			flex: 1;
+			max-width: 400px;
+		}
+		
+		.expl{
+			background-color: #FFF;
+			display: flex;
+			// padding-right: 150px;
+			flex: 2;
+			max-width: 800px;
+
+			ul{
+				list-style: none;
+				li{
+					background-color: $plava;
+					margin: 0 0 16px 0;
+					border-radius: 50%;
+					width: 40px;
+					height: 40px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: white;
+					border: 3px solid white;
+					transition: 0.4s;
+					cursor: pointer;
+				}
+
+				.selektovan{
+					background-color: white;
+					color: $plava;
+					border: 3px solid $plava;
+
+				}
+			}
+		}
 	}
 	
-	.expl{
-		background-color: #FFF;
-	}
 }
